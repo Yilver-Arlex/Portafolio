@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <!--Menu Header-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">@Yilver-Arlex</a>
+            </div>
+
+            <nav id="nav" >
+                <ul>
+                    <li class="li"><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li class="li"><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li class="li"><a href="#skills" onclick="seleccionar()">SKILLs</a></li>
+                    <li class="li"><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li class="li"><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li class="li"><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container img">
+                <img src="img/PerfilPortafolio.webp" alt="">
+            </div>
+            <h1>Yilver Arlex Jovel Angarita</h1>
+            <h2>Aprendiz - Sin ser experto en algo(Por ahora)</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/yilver.arlex/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/SasukeGeni60251" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/yilverarlex/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/yilver-arlex-jovel-angarita-73b777423/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--Section sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Yilver</span> Soy un aprediz que ba a mejorar mucho en los proximo meses, para ganar muy buen dinero en el futuro</p>
+
+            <!--Datos personales-->
+            <div class="fila">
+
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            11-05-2008
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 323 2820443
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            https://github.com/Yilver-Arlex
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Garzón, Huila, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Aprendiz</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="container-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>Series</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Tecnologia</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Techical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso wordpress">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso react">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Professional Skills-->
+
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso equipo">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso proyectManagement">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Inicios</h4>
+                        <span class="casa">Tecnico En Sistemas</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Mientras cursaba el grado 10, el SENA abrió el programa Técnico en Sistemas, una oportunidad de formación con una duración de dos años que decidí aprovechar.</p> <!--Modificarlo luego-->
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Actualidad</h4>
+                        <span class="casa">Tecnologo De Analisis Y Desarrollo de Software</span>
+                        <span class="fecha">2025 - 2026</span>
+                        <p>Actualmente curso el Tecnólogo en Análisis y Desarrollo de Software (ADSO) en el SENA, donde continúo fortaleciendo mis conocimientos en programación y desarrollo de software.</p> <!--Modificarlo luego-->
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div> <!--
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Ps realmente esto ahora lo voy a remplazar pero ps bien yo creo ademas de esta nada más, espero continuar aprendiendo</p> 
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div> -->
+                </div> 
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Administrador De Gastos</h4>
+                        <span class="casa">Amasijos</span>
+                        <span class="fecha">2024</span>
+                        <p>Realicé mis pasantías del Técnico en Sistemas como administrador de gastos en un restaurante, donde me encargaba del control y registro de facturas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div> <!----
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Nombre compañia</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Hol esto es otro texto para la sección de experiencia en el trabajo</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Nombre compañia</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Hol esto es otro texto para la sección de experiencia en el trabajo</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Portafolio-->
+
+    <section id="portafolio" class="portafolio">
+        <div class="container-section">
+            <h2>Ejercicios Doom</h2>
+            <div class="galeria">
+                <a href="ejercicios_Doom/ejercicio4/" target="_blank">
+                    <div class="proyecto">
+                        <img src="img_ejerciciosDoom/ejercicio4.webp" alt="">
+                        <div class="overlay">
+                            <h3>Car Doom</h3>
+                            <p>Ejercicio 4</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="ejercicios_Doom/ejercicio5/" target="_blank">
+                    <div class="proyecto">
+                        <img src="img_ejerciciosDoom/ejercicio5.webp" alt="">
+                        <div class="overlay">
+                            <h3>Cursor Animado</h3>
+                            <p>Ejercicio 5</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="ejercicios_Doom/ejercicio6/" target="_blank">
+                    <div class="proyecto">
+                        <img src="img_ejerciciosDoom/ejercicio6.webp" alt="">
+                        <div class="overlay">
+                            <h3>Cronometro</h3>
+                            <p>Ejercicio 6</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="ejercicios_Doom/ejercicio7/" target="_blank">
+                    <div class="proyecto">
+                        <img src="img_ejerciciosDoom/ejercicio7.webp" alt="">
+                        <div class="overlay">
+                            <h3>Carrusel</h3>
+                            <p>Ejercicio 7</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="ejercicios_Doom/ejercicio8/" target="_blank">
+                    <div class="proyecto">
+                        <img src="img_ejerciciosDoom/ejercicio8.webp" alt="">
+                        <div class="overlay">
+                            <h3>Galeria 3D</h3>
+                            <p>Ejercicio 8</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="ejercicios_Doom/ejercicio9/" target="_blank">
+                    <div class="proyecto">
+                        <img src="img_ejerciciosDoom/ejercicio9.webp" alt="">
+                        <div class="overlay">
+                            <h3>Mensaje</h3>
+                            <p>Ejercicio 9</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="ejercicios_Doom/ejercicio10/" target="_blank">
+                    <div class="proyecto">
+                        <img src="img_ejerciciosDoom/ejercicio10.webp" alt="">
+                        <div class="overlay">
+                            <h3>Bateria</h3>
+                            <p>Ejercicio 10</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="ejercicios_Doom/ejercicio11/" target="_blank">
+                    <div class="proyecto">
+                        <img src="img_ejerciciosDoom/ejercicio11.webp" alt="">
+                        <div class="overlay">
+                            <h3>Calculadora</h3>
+                            <p>Ejercicio 11</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="ejercicios_Doom/ejercicio12/" target="_blank">
+                    <div class="proyecto">
+                        <img src="img_ejerciciosDoom/ejercicio12.webp" alt="">
+                        <div class="overlay">
+                            <h3>Lista De Tareas</h3>
+                            <p>Ejercicio 12</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="container-section">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Numero Telefonico">
+                    <input type="text" placeholder="Dirección de Correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                    <button>Enviar <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                
+                <!--Mapa-->
+                <div class="col">
+                    <img src="img/mapaDeGoogle.webp" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Garzón, Huila, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +57 323 2820443
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                E-mail: yilverarlexjovelangarita@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/yilver.arlex/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/SasukeGeni60251" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yilverarlex/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/yilver-arlex-jovel-angarita-73b777423/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
