@@ -188,7 +188,6 @@ html {
 .sobremi .fila .col .container-intereses{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .sobremi .fila .col .container-intereses .interes{
@@ -808,6 +807,9 @@ footer .arriba{
     }
     .skills .fila .col {
         width: 100%;
+    }
+    .sobremi .fila .col .container-intereses{
+        justify-content: center;
     }
     .skills .fila .col .barra-skill{
         width: 100%;
