@@ -86,7 +86,7 @@ ul li::before {
     height: 16px;
     width: 16px;
     border-radius: 50%;
-    background-image: url("../img/uncheck.webp");
+    background-image: url("../img/uncheck.avif");
     background-size: cover;
     background-position: center;
     top: 50%;
@@ -99,7 +99,7 @@ ul li.checked {
 }
 
 ul li.checked::before {
-    background-image: url("../img/check.webp");
+    background-image: url("../img/check.avif");
     background-size: cover;
     background-position: center;
     top: 50%;

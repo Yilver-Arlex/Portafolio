@@ -14,7 +14,7 @@ function derecha(){
     if(contador>imgMuestra.length-1){
         contador = 0;
     }
-    imagenes.style.backgroundImage = `url("img/${imgMuestra[contador]}.webp")`;
+    imagenes.style.backgroundImage = `url("img/${imgMuestra[contador]}.avif")`;
 }
 
 function izquierda(){
@@ -22,7 +22,7 @@ function izquierda(){
     if(contador<0){
         contador = imgMuestra.length-1;
     }
-    imagenes.style.backgroundImage = `url("img/${imgMuestra[contador]}.webp")`;
+    imagenes.style.backgroundImage = `url("img/${imgMuestra[contador]}.avif")`;
     
 }
 
